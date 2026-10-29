@@ -1,0 +1,35 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.plan
+*.tfvars
+!terraform.tfvars.example
+.terraformrc
+terraform.rc
+crash.log
+crash.*.log
+
+# Credentials and secrets
+.env
+.env.*
+.aws/
+credentials
+*.pem
+*.key
+secrets/
+
+# Local recovery data and backup metadata
+recovery/
+backups/latest-prefix.txt
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

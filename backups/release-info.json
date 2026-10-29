@@ -1,0 +1,5 @@
+{
+  "release": "1.0",
+  "status": "known-good",
+  "notes": "Baseline release for rollback testing"
+}

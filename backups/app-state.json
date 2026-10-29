@@ -1,0 +1,7 @@
+{
+  "application": "dr-demo",
+  "environment": "learning",
+  "release": "1.0",
+  "message": "Original application state",
+  "recovery_test": true
+}
